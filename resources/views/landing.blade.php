@@ -6,6 +6,18 @@
 @section('landingStyle')
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+        ::placeholder {
+            color: red;
+            opacity: 1; /* Firefox */
+        }
+
+        :-ms-input-placeholder { /* Internet Explorer 10-11 */
+            color: red;
+        }
+
+        ::-ms-input-placeholder { /* Microsoft Edge */
+            color: red;
+        }
         .hero{
             background: #131313;
         }
